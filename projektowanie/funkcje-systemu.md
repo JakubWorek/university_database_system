@@ -1,0 +1,21 @@
+# Funkcje systemu
+
+- zlicza frekwencję użytkownika na studiach / kursach / praktykach
+- zalicza moduł prowadzony online asynchronicznie
+- udostępnia nagranie użytkownikowi
+  - po ukończeniu webinaru i kursu online synchronicznego udostępnia użytkownikowi nagranie na okres 30 dni
+- generuje raporty i listy na żądanie uprawnionych użytkowników:
+  - generowanie raportu finansowego - zestawienie przychodów dla każdego webinaru / kursu / studium
+  - generowanie listy osób zalegających z opłatami - zestawienie osób, które skorzystały z usług i nie uiściły opłat
+  - generowanie raportu o liczbie osób zapisanych na przyszłe wydarzenia - zestawienie liczby osób, oraz typu spotkania (zdalne/stacjonarne)
+  - generowanie raportu o frekwencji na zakończonych wydarzeniach
+  - generowanie listy obecności
+    - dla każdego szkolenia generuje listę z datą, imieniem, nazwiskiem oraz informacją o obecności danego uczestnika
+  - generowanie raportu o kolizjach użytkowników - informuje użytkownika zapisanego na dwa wydarzenia odbywające się w tym samym czasie
+- przechowuje produkty w koszyku
+- zapisuje wybrane produkty przez użytkownika i pozwala na płatność za wszystkie nara
+- weryfikuje terminowe dopłaty
+- blokuje dostęp do kursu/studiów, jeśli użytkownik nie zapłaci 3 dni przed ich rozpoczęciem
+- pilnuje limitów osób na kursach oraz studiach
+- uniemożliwia dodanie użytkownika przez koordynatora przedmiotu, gdy nie ma już miejsc
+- nie pozwala zapisać się 2 razy na te same zajęcia w tej samej edycji
